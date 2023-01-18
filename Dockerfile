@@ -13,7 +13,7 @@ COPY . .
 RUN npm run build
 
 
-### STAGE 2: Run ###
+### STAGE 2: Run ##
 
 FROM nginx:latest
 
